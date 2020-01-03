@@ -1,0 +1,229 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-02T23:45:06.444Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10181972500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "DDT example with credentials, Login as sales.manager.username60",
+        "description": "",
+        "id": "login;ddt-example-with-credentials--login-as-\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 732799000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2797485000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006097300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"sales.manager.username60\" username and \"salesmanager\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales.manager.username60\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"salesmanager\"",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T23:45:21.218Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9294768100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "DDT example with credentials, Login as expenses.manager.username65",
+        "description": "",
+        "id": "login;ddt-example-with-credentials--login-as-\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 728587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2741932600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 980949300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"expenses.manager.username65\" username and \"expensesmanager\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"expenses.manager.username65\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"expensesmanager\"",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T23:45:34.968Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9300356200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "DDT example with credentials, Login as event.scrm.manager.username56",
+        "description": "",
+        "id": "login;ddt-example-with-credentials--login-as-\u003cusername\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 735501900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3113291600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1013318500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"event.scrm.manager.username56\" username and \"eventscrmmanager\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"event.scrm.manager.username56\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"eventscrmmanager\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_with_credentials_ddt"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user, I want to be able to login into OdooBrightERP under different roles with username and password",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
