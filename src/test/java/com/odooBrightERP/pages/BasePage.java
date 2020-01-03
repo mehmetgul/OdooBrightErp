@@ -21,9 +21,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 //so we can keep them here
 public class BasePage {
 
-    @FindBy(css = "div[class='loader-mask shown']")
-    public WebElement loaderMask;
-
     @FindBy(css = "head > title")
     public WebElement pageSubTitle;
 
